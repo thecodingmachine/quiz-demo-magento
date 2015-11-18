@@ -1,0 +1,32 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "mouf/mouf": "~2.0",
+        "mouf/integration.magento.moufgento": "~1.0",
+        "thecodingmachine/quiz-module": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:thecodingmachine/quiz-module.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+    "extra": {
+        "magento-root-dir": "."
+    }
+}

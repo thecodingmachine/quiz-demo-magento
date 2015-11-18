@@ -1,0 +1,1 @@
+../../../../../../vendor/mouf/integration.magento.moufgento-magentomodule/app/code/community/Mouf/Mvc/Model/Observer.php
